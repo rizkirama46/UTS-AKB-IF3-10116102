@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 
+import com.wang.avi.AVLoadingIndicatorView;
+
 //Tanggal Pengerjaaan = 19-mei-2019
 //10116102
 //Mohammad Rizki Ramadhan/
@@ -12,10 +14,18 @@ import android.widget.LinearLayout;
 
 public class SplashActivity extends Activity {
 
+    private LinearLayout loading;
+    private AVLoadingIndicatorView avi;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        loading = (LinearLayout) findViewById(R.id.loading);
+        avi = (AVLoadingIndicatorView) findViewById(R.id.avi);
+        avi.setIndicator("BallSpinFadeLoaderIndicator");
 
         Thread thread = new Thread(){
             public void run(){
