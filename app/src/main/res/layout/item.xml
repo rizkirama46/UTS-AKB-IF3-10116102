@@ -200,15 +200,14 @@
 
             <LinearLayout
                 android:paddingTop="9dp"
+                android:gravity="center_horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:background="@color/grey"
                 android:layout_below="@+id/layout_ig">
 
-                <ImageButton
-                    android:layout_width="50dp"
-                    android:layout_height="50dp" />
+
 
             </LinearLayout>
         </RelativeLayout>

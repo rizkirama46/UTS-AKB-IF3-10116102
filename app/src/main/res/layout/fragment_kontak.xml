@@ -133,6 +133,7 @@
         android:layout_marginTop="45dp">
 
         <LinearLayout
+            android:id="@+id/lin_telp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -141,7 +142,7 @@
             <ImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:src="@drawable/wa"/>
+                android:src="@drawable/phone"/>
 
             <TextView
                 android:layout_gravity="center_vertical"
@@ -152,6 +153,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lin_fb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -171,6 +173,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lin_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -190,6 +193,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lin_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -198,17 +202,18 @@
             <ImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:src="@drawable/line"/>
+                android:src="@drawable/gmail"/>
 
             <TextView
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="rama121898"/>
+                android:text="rizkirama46@gmail.com"/>
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lin_ig"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"

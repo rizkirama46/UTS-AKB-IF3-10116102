@@ -1,5 +1,10 @@
 package com.example.uts;
 
+//Tanggal Pengerjaaan = 21-mei-2019
+//10116102
+//Mohammad Rizki Ramadhan/
+//IF-3
+
 public class Model {
     private String nim;
     private String nama;

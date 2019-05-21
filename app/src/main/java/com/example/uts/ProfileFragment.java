@@ -7,6 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+//Tanggal Pengerjaaan = 20-mei-2019
+//10116102
+//Mohammad Rizki Ramadhan/
+//IF-3
 
 /**
  * A simple {@link Fragment} subclass.

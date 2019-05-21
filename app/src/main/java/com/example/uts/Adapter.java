@@ -11,6 +11,11 @@ import android.widget.EditText;
 
 import java.util.List;
 
+//Tanggal Pengerjaaan = 21-mei-2019
+//10116102
+//Mohammad Rizki Ramadhan/
+//IF-3
+
 public class Adapter extends PagerAdapter {
 
     private List<Model> mhs;

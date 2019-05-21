@@ -15,6 +15,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+//Tanggal Pengerjaaan = 19-mei-2019
+//10116102
+//Mohammad Rizki Ramadhan/
+//IF-3
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
